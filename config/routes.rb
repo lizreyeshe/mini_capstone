@@ -6,6 +6,8 @@ namespace :api do
 
   get "/all_products" => "products#all_products_action"
 
+  get "/chocolate" => "products#chocolate_action"
+
 end 
 
 end
